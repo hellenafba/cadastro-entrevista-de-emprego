@@ -29,13 +29,16 @@ textarea{
 }
 
 #acoes button{
-    padding: 10px;
-
-    color: white;
+    padding: 15px;
+    margin: 0 20px;
+       
 }
 
 #acoes div{
-    margin-left: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    
 }
 
 #enviar{
