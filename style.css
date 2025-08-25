@@ -1,0 +1,47 @@
+header{
+     display: inline-block;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+fieldset{
+    border: dotted;
+}
+
+textarea{
+    background-color: khaki;
+}
+
+#dados-pessoais{
+    background-color: lightblue;
+}
+
+#dados-pessoais input, select{
+    background-color: khaki;
+}
+
+#dados-profissionais{
+    background-color: lightcoral;
+}
+
+#acoes{
+    background-color: lightgreen;
+}
+
+#acoes button{
+    padding: 10px;
+
+    color: white;
+}
+
+#acoes div{
+    margin-left: 50%;
+}
+
+#enviar{
+    background-color: darkgreen;
+}
+
+#limpar{
+    background-color: orange;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro na empresa</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>
+                Formulário de Cadastro
+            </h1>
+        </nav>
+    </header>
+    <main>
+        <form action="#cadastrar">
+            <fieldset id="dados-pessoais">
+                <legend>Dados pessoais:</legend>
+                <div>
+                    <p>Nome: <input type="text"></p>
+                    <p>Email: <input type="text"></p>
+                    <p>Cidade:<input type="text"></p>
+                    <p>
+                        Estado:
+                        <select name="" id="">
+                            <option value="">Selecione estado</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </p>
+                </div>
+            </fieldset>
+            <fieldset id="dados-profissionais">
+                <legend>Dados profissionais:</legend>
+                <div>
+                    <h3>Cargo pretendido:</h3>
+                    <p>
+                    <input type="radio" name="sistema" id="ADS"><label for="sistema">Analista de Sistema</label>
+                    <input type="radio" name="dados" id="Banco"><label for="dados">Analista de banco de dados</label>
+                    <input type="radio" name="suporte" id="Suporte"><label for="suporte">Analista de Susporte</label>
+                    </p>
+                </div>
+                <div>
+                    <h3>Tecnologias de interesse: </h3>
+                    <p>
+                        <input type="checkbox" name="java" id="java"><label for="java">Java</label>
+                        <input type="checkbox" name="front" id="front"><label for="front">HTML,CSS</label>
+                        <input type="checkbox" name="js" id="js"><label for="js">Javascript</label>
+                        <input type="checkbox" name="sql" id="sql"><label for="sql">SQL</label>
+                    </p>
+                </div>
+                <div>
+                    <h3>Mini curriculo: </h3>
+                    <textarea name="curriculo" id="curriculo" cols="81" rows="15"></textarea>
+                </div>
+            </fieldset>
+            <fieldset id="acoes">
+                <legend>Ações</legend>
+                    <div>
+                    <button id="enviar">ENVIAR</button>
+                    <button id="limpar">LIMPAR</button>
+                    </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
